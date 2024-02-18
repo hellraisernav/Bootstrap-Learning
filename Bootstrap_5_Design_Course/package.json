@@ -1,0 +1,22 @@
+{
+  "name": "04_bootstrap-5",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "prebuild": "npx rimraf build",
+    "build": "parcel build --public-url ./ ./src/index.html  --out-dir  build --no-minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "css-what": "^5.0.1"
+  },
+  "devDependencies": {
+    "cssnano": "^5.0.6",
+    "postcss": "^8.3.5",
+    "sass": "^1.35.1"
+  }
+}

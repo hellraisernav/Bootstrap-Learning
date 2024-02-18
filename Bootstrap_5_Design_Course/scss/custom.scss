@@ -1,0 +1,32 @@
+$body-bg:rgb(39, 39, 39);
+$body-color:white;
+$primary:green;
+
+$font-family-sans-serif: "Poppins",
+sans-serif;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.custombg {
+    background: black url(../assets/abstract.jpg);
+    background-size: cover;
+
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    background: rgb(53, 53, 53);
+}
+
+.card-body p {
+    color: gray;
+}
